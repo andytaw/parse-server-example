@@ -7,19 +7,19 @@
   "env": {
     "PARSE_MOUNT": {
       "description": "Configure Parse API route.",
-      "value": "/parse"
+      "value": "/data"
     },
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": "myAppId"
+      "value": "4861A54E256245D99F1F1565D39AC9BD"
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "myMasterKey"
+      "value": "355D0C3105774D81B15DEBBD030DFF12"
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "http://yourappname.herokuapp.com/parse"
+      "value": "https://atl-parse-server.herokuapp.com/data"
     }
   },
   "image": "heroku/nodejs",
